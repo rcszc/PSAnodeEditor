@@ -332,7 +332,7 @@ namespace PSAnodesConvert {
 			}
 		}
 		if (!IS_PROJ_VALID) {
-			PushLogger(LogError, LABLogNodesPROJ, "project load failed, project invalid.");
+			PushLogger(LogError, LABLogNodesPROJ, "project flag invalid.");
 			// clear invalid data.
 			ptr_nodes->clear(); ptr_lines->clear();
 			return PSAG_SYSTEM_FAILED;
