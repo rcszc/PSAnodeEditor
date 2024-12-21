@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\NodesEditorCore">
+      <UniqueIdentifier>{ab76d33a-a56f-45c2-88ed-05e740690ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NodesEditorCore\NodesSystemCore">
+      <UniqueIdentifier>{d464a484-c5bd-4756-8bbe-80d68152d2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\external_library">
+      <UniqueIdentifier>{301c31f7-9934-4959-8d18-98a7861a555c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\external_library\imgui">
+      <UniqueIdentifier>{e81bf287-e27f-4ee0-9113-e0fca004f317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\external_library\imnodes">
+      <UniqueIdentifier>{b21a49d7-5c12-44fe-b739-994b0abe4430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\system_resource">
+      <UniqueIdentifier>{87ec9c9d-b885-4f40-ae70-b589bb3e9807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\system_resource\system_logs">
+      <UniqueIdentifier>{83d01b5b-fffb-4ca4-8731-5e9227649193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\system_resource\system_config">
+      <UniqueIdentifier>{d3c22e31-75f1-42f7-bc04-fbd72f6307f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\external_library\imbloom">
+      <UniqueIdentifier>{176eb2a4-e8a8-41ba-97e1-ec666d782e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NodesEditorCore\NodesSystemLogger">
+      <UniqueIdentifier>{44815d47-53e2-4f62-b7af-8b5769168716}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PSAGameNodesEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui.cpp">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_demo.cpp">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_draw.cpp">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_glfw.cpp">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl2.cpp">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl3.cpp">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_tables.cpp">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_widgets.cpp">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\ImNodes\imnodes.cpp">
+      <Filter>资源文件\external_library\imnodes</Filter>
+    </ClCompile>
+    <ClCompile Include="NodesEditorCore\psag_nodes_editor.cpp">
+      <Filter>源文件\NodesEditorCore</Filter>
+    </ClCompile>
+    <ClCompile Include="NodesEditorCore\psag_nodes_editor_init.cpp">
+      <Filter>源文件\NodesEditorCore</Filter>
+    </ClCompile>
+    <ClCompile Include="NodesEditorCore\NodesSystemLogger\framework_logger.cpp">
+      <Filter>源文件\NodesEditorCore\NodesSystemLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\imgui_bloom_src\opengl_imgui_bloom.cpp">
+      <Filter>资源文件\external_library\imbloom</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDepLibrary\imgui_bloom_src\opengl_imgui_bloom_script.cpp">
+      <Filter>资源文件\external_library\imbloom</Filter>
+    </ClCompile>
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_encode.cpp">
+      <Filter>源文件\NodesEditorCore\NodesSystemCore</Filter>
+    </ClCompile>
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_loader.cpp">
+      <Filter>源文件\NodesEditorCore\NodesSystemCore</Filter>
+    </ClCompile>
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_operation.cpp">
+      <Filter>源文件\NodesEditorCore\NodesSystemCore</Filter>
+    </ClCompile>
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_render.cpp">
+      <Filter>源文件\NodesEditorCore\NodesSystemCore</Filter>
+    </ClCompile>
+    <ClCompile Include="NodesEditorCore\psag_nodes_editor_blur.cpp">
+      <Filter>源文件\NodesEditorCore</Filter>
+    </ClCompile>
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_file.cpp">
+      <Filter>源文件\NodesEditorCore\NodesSystemCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imconfig.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_glfw.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl2.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl3.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl3_loader.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_internal.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imstb_rectpack.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imstb_textedit.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imstb_truetype.h">
+      <Filter>资源文件\external_library\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImNodes\imnodes.h">
+      <Filter>资源文件\external_library\imnodes</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\ImNodes\imnodes_internal.h">
+      <Filter>资源文件\external_library\imnodes</Filter>
+    </ClInclude>
+    <ClInclude Include="NodesEditorCore\psag_nodes_editor.h">
+      <Filter>源文件\NodesEditorCore</Filter>
+    </ClInclude>
+    <ClInclude Include="NodesEditorCore\NodesSystemLogger\framework_logger.hpp">
+      <Filter>源文件\NodesEditorCore\NodesSystemLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalDepLibrary\imgui_bloom_src\opengl_imgui_bloom.h">
+      <Filter>资源文件\external_library\imbloom</Filter>
+    </ClInclude>
+    <ClInclude Include="NodesEditorCore\NodesSystemCore\psag_nodes_system.hpp">
+      <Filter>源文件\NodesEditorCore\NodesSystemCore</Filter>
+    </ClInclude>
+    <ClInclude Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_data.hpp">
+      <Filter>源文件\NodesEditorCore\NodesSystemCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NodesEditorResource\SystemConfig\nodes_config_attributes.json">
+      <Filter>资源文件\system_resource\system_config</Filter>
+    </None>
+    <None Include="NodesEditorResource\SystemConfig\nodes_config_types.json">
+      <Filter>资源文件\system_resource\system_config</Filter>
+    </None>
+    <None Include="NodesEditorResource\SystemConfig\system_editor_config.json">
+      <Filter>资源文件\system_resource\system_config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

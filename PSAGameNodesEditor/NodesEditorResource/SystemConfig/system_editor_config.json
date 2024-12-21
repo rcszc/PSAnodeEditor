@@ -1,0 +1,9 @@
+{
+  "WindowSize": [ 1800, 1000 ],
+  "WindowBorder": true,
+  "WindowTitle": "PSAGame NodesEditor Alpha",
+  "WindowMSAA": 4,
+  "WindowAsync": true,
+  "ImGuiFont": "NodesEditorResource/JetBrainsMonoBoldItalic.ttf",
+  "ImGuiFontSize": 28.0
+}

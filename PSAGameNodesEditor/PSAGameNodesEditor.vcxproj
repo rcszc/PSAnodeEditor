@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2dbf5f0e-a9be-4f74-9891-5d5bf36e2703}</ProjectGuid>
+    <RootNamespace>PSAGameNodesEditor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>ExternalDepLibrary\ImGuiForOpenGL\;ExternalDepLibrary\ImNodes\;ExternalDepLibrary\OpenGLglew\include\;ExternalDepLibrary\OpenGLglfw\include\;ExternalDepLibrary\RapidJSON\include\;ExternalDepLibrary\STBimageLoader\;ExternalDepLibrary\imgui_bloom_src\;$(IncludePath)</IncludePath>
+    <LibraryPath>ExternalDepLibrary\OpenGLglew\lib\Release\x64\;ExternalDepLibrary\OpenGLglfw\lib-vc2019\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui.cpp" />
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_demo.cpp" />
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_draw.cpp" />
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_glfw.cpp" />
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl2.cpp" />
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_tables.cpp" />
+    <ClCompile Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_widgets.cpp" />
+    <ClCompile Include="ExternalDepLibrary\imgui_bloom_src\opengl_imgui_bloom.cpp" />
+    <ClCompile Include="ExternalDepLibrary\imgui_bloom_src\opengl_imgui_bloom_script.cpp" />
+    <ClCompile Include="ExternalDepLibrary\ImNodes\imnodes.cpp" />
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_encode.cpp" />
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_file.cpp" />
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_loader.cpp" />
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_operation.cpp" />
+    <ClCompile Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_render.cpp" />
+    <ClCompile Include="NodesEditorCore\NodesSystemLogger\framework_logger.cpp" />
+    <ClCompile Include="NodesEditorCore\psag_nodes_editor.cpp" />
+    <ClCompile Include="NodesEditorCore\psag_nodes_editor_blur.cpp" />
+    <ClCompile Include="NodesEditorCore\psag_nodes_editor_init.cpp" />
+    <ClCompile Include="PSAGameNodesEditor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imconfig.h" />
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui.h" />
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_glfw.h" />
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl2.h" />
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl3.h" />
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imgui_internal.h" />
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imstb_rectpack.h" />
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imstb_textedit.h" />
+    <ClInclude Include="ExternalDepLibrary\ImGuiForOpenGL\imstb_truetype.h" />
+    <ClInclude Include="ExternalDepLibrary\imgui_bloom_src\opengl_imgui_bloom.h" />
+    <ClInclude Include="ExternalDepLibrary\ImNodes\imnodes.h" />
+    <ClInclude Include="ExternalDepLibrary\ImNodes\imnodes_internal.h" />
+    <ClInclude Include="NodesEditorCore\NodesSystemCore\psag_nodes_system.hpp" />
+    <ClInclude Include="NodesEditorCore\NodesSystemCore\psag_nodes_system_data.hpp" />
+    <ClInclude Include="NodesEditorCore\NodesSystemLogger\framework_logger.hpp" />
+    <ClInclude Include="NodesEditorCore\psag_nodes_editor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NodesEditorResource\SystemConfig\nodes_config_attributes.json" />
+    <None Include="NodesEditorResource\SystemConfig\nodes_config_types.json" />
+    <None Include="NodesEditorResource\SystemConfig\system_editor_config.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,59 @@
+{
+  "ProjectUniqueName": "PSA_SYSTEM_TEST_PORJ",
+  "Test.A": {
+    "Version": 10020241210,
+    "Color": [ 100, 0, 168, 255 ],
+    "Width": 180.0,
+    "InputPoints": [ "Float32", "Int32", "Int32" ],
+    "OutputPoints": [ "Int32", "Double" ]
+  },
+  "Test.B": {
+    "Version": 10020241210,
+    "Color": [ 122, 140, 0, 255 ],
+    "Width": 220.0,
+    "InputPoints": [ "Float32", "Int32", "Byte", "Double" ],
+    "OutputPoints": [ "Int32", "Double", "Matrix" ]
+  },
+  "Test.C": {
+    "Version": 10020241210,
+    "Color": [ 0, 104, 156, 255 ],
+    "Width": 220.0,
+    "InputPoints": [ "Float32", "Float32", "Int32" ],
+    "OutputPoints": [ "Int32", "Byte", "Matrix", "Matrix" ]
+  },
+  "Test.D": {
+    "Version": 10020241210,
+    "Color": [ 0, 158, 96, 255 ],
+    "Width": 180.0,
+    "InputPoints": [ "String", "Matrix" ],
+    "OutputPoints": [ "Float32", "Float32" ]
+  },
+  "Test.E": {
+    "Version": 10020241210,
+    "Color": [ 138, 80, 0, 255 ],
+    "Width": 180.0,
+    "InputPoints": [ "Float32", "Int32" ],
+    "OutputPoints": [ "Int32", "Float32" ]
+  },
+  "Test.F": {
+    "Version": 10020241210,
+    "Color": [ 138, 80, 0, 255 ],
+    "Width": 180.0,
+    "InputPoints": [ "Int32", "Float32" ],
+    "OutputPoints": [ "Float32", "Int32" ]
+  },
+  "Test.Component.IN": {
+    "Version": 10020241210,
+    "Color": [ 160, 24, 0, 255 ],
+    "Width": 200.0,
+    "InputPoints": [],
+    "OutputPoints": [ "Float32", "Float32", "String" ]
+  },
+  "Test.Component.OUT": {
+    "Version": 10020241210,
+    "Color": [ 160, 24, 0, 255 ],
+    "Width": 200.0,
+    "InputPoints": [ "Matrix", "Matrix", "Float32" ],
+    "OutputPoints": []
+  }
+}
