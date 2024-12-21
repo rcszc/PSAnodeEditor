@@ -1,7 +1,7 @@
 ﻿/*
 * PSAGameNodesEditor.RCSZ 2024_12_07.
 * @pomelo_star studio game(framework), nodes editor.
-* Ext.Library: OpenGL3, GLFW, GLEW, ImGui, STB_IMAGE, ImNodes, RapidJSON.
+* Ext.Library: OpenGL3, GLFW, GLEW, STB_IMAGE, ImGui, ImNodes, RapidJSON.
 * Editor: For Windows10-11, version: 0.1.2 alpha 20241207.
 * Dev: VisualStudio2022, MSVC Debug x64 C11/C++17.
 * 外部依赖自写模块:
