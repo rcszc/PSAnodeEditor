@@ -27,4 +27,4 @@ __update:__ `2024.12.22` `RCSZ`
 
 ---
 
-[前往BiliBili视频]()
+[前往BiliBili视频](https://www.bilibili.com/video/BV1BykhYaEmm/?share_source=copy_web&vd_source=13ed11b7c6628f0aef39803f8e802f5b)
